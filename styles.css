@@ -174,7 +174,7 @@ model-viewer > #ar-prompt > img {
       --paper-toggle-button-checked-bar-color:  var(--paper-orange-500);
       --paper-toggle-button-checked-button-color:  var(--paper-orange-500);
       --paper-toggle-button-checked-ink-color: var(--paper-orange-500);
-      --paper-toggle-button-label-color: #eee;
+      --paper-toggle-button-label-color: #000000;
       position: absolute;
       bottom: 1em;
       left: 1em;
