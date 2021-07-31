@@ -107,7 +107,7 @@ model-viewer {
     }
 
     mwc-switch {
-      --mdc-theme-secondary: darkred;
+      --mdc-theme-secondary: orange;
       font-family: system-ui;
 
 .progress-bar {
