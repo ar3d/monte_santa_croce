@@ -184,7 +184,7 @@ model-viewer > #ar-prompt > img {
       position: absolute;
       bottom: 4em;
       left: 2em;
-      color: #fff;
+      color: #000000;
     }
     
     mwc-switch > span {
