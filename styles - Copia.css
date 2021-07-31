@@ -16,11 +16,6 @@ model-viewer {
   background: linear-gradient(to top right, rgb(218, 221, 227), rgb(119, 124, 133));
 }
 
- model-viewer:not(.show-hotspots) .Hotspot {
-      opacity: 0;
-      pointer-events: none;
-    }
-
 .Hotspot {
   background: rgb(89, 2, 2);
   border-radius: 12px;
@@ -82,33 +77,6 @@ model-viewer {
   transition: transform 0.3s, opacity 0.3s;
 }
 
- paper-toggle-button {
-      --paper-toggle-button-checked-bar-color:  var(--paper-orange-500);
-      --paper-toggle-button-checked-button-color:  var(--paper-orange-500);
-      --paper-toggle-button-checked-ink-color: var(--paper-orange-500);
-      --paper-toggle-button-label-color: #eee;
-      position: absolute;
-      bottom: 1em;
-      left: 1em;
-    }
-    
-    .mwc-switch-wrapper {
-      position: absolute;
-      bottom: 2em;
-      left: 2em;
-      color: #fff;
-    }
-    
-    mwc-switch > span {
-      display: inline-block;
-      height: 1em;
-      vertical-align: 1px;
-      margin: 0 0.75em;
-    }
-
-    mwc-switch {
-      --mdc-theme-secondary: darkred;
-      font-family: system-ui;
 
 .progress-bar {
   display: block;
